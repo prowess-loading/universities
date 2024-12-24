@@ -1,0 +1,14 @@
+{
+    "chrome": {
+        "width": 0, "height": 139
+    },
+    "firefox": {
+        "width": 0, "height": 85
+    },
+    "edge": {
+        "width": 8, "height": 129
+    },
+    "safari": {
+        "width": 0, "height": 52
+    }
+}

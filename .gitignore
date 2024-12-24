@@ -1,0 +1,7 @@
+
+/pages/__pycache__
+/setup/__pycache__
+/data/__pycache__
+.DS_Store
+/log/*
+/single_run.py

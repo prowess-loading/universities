@@ -1,0 +1,15 @@
+{
+    "universities": {
+        "Imperial-Collage-London": "a[href='Imperial-College.html']",
+        "Massachusetts-Institute-of-Technology": "a[href='MIT.html']",
+        "University-of-Cambridge": "a[href='University-of-Cambridge.html']",
+        "University-of-Oxford": "a[href='University-of-Oxford.html']",
+        "Stanford-University": "a[href='Stanford.html']",
+        "University-of-Zurich": "a[href='Zurich.html']",
+        "National-University-of-Singapore": "a[href='University-of-Singapore.html']",
+        "University-College-London": "a[href='University-College-London.html']",
+        "California-Institute-of-Technology": "a[href='Caltech.html']",
+        "University-of-Pennsylvania": "a[href='University-of-Pennsylvania.html']",
+        "University-of-California": "a[href='University-of-California.html']"
+    }    
+}

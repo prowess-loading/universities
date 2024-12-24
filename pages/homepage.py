@@ -1,0 +1,35 @@
+import json
+import random
+from setup.smooth_scroll import SmoothScroll
+
+
+class HomePage:
+    def __init__(self, driver):
+        self.driver = driver
+
+        with open('data/page_locators.json', 'r') as f:
+            self.locators = json.load(f)
+
+        self.universities = [
+            "Imperial-Collage-London",
+            "Massachusetts-Institute-of-Technology",
+            "University-of-Cambridge",
+            "University-of-Oxford",
+            "Stanford-University",
+            "University-of-Zurich",
+            "National-University-of-Singapore",
+            "University-College-London",
+            "California-Institute-of-Technology",
+            "University-of-Pennsylvania",
+            "University-of-California",
+        ]
+
+        self.selected_university_name = random.choice(self.universities)
+
+    def open_university_page(self):
+        university_page_article_id = self.locators["universities"].get(
+            self.selected_university_name)
+        print(f"Selected University: {self.selected_university_name}")
+
+        navigator = SmoothScroll(self.driver)
+        navigator.scroll_to_single(university_page_article_id)

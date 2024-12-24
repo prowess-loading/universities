@@ -1,0 +1,361 @@
+{"Apple iPhone 8": {
+  "deviceMetrics": {
+  "width": 750,
+  "height": 2340,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone 8 Plus": {
+  "deviceMetrics": {
+  "width": 1080,
+  "height": 1920,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone X": {
+  "deviceMetrics": {
+  "width": 1125,
+  "height": 2436,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone XS Max": {
+  "deviceMetrics": {
+  "width": 1242,
+  "height": 2688,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone XS": {
+  "deviceMetrics": {
+  "width": 1125,
+  "height": 2436,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone XR": {
+  "deviceMetrics": {
+  "width": 828,
+  "height": 1792,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"iPhone 11": {
+  "deviceMetrics": {
+  "width": 828,
+  "height": 1792,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"iPhone 11 Pro": {
+  "deviceMetrics": {
+  "width": 1125,
+  "height": 2436,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"iPhone 11 Pro Max": {
+  "deviceMetrics": {
+  "width": 1242,
+  "height": 2688,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"iPhone 12": {
+  "deviceMetrics": {
+  "width": 1170,
+  "height": 2532,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"iPhone 12 Pro": {
+  "deviceMetrics": {
+  "width": 1170,
+  "height": 2532,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"iPhone 12 Pro Max": {
+  "deviceMetrics": {
+  "width": 1284,
+  "height": 2778,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"iPhone 12 Mini": {
+  "deviceMetrics": {
+  "width": 1080,
+  "height": 2340,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"iPhone 13": {
+  "deviceMetrics": {
+  "width": 1170,
+  "height": 2532,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"iPhone 13 Pro": {
+  "deviceMetrics": {
+  "width": 1170,
+  "height": 2532,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"iPhone 13 Pro Max": {
+  "deviceMetrics": {
+  "width": 1284,
+  "height": 2778,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"iPhone 13 Mini": {
+  "deviceMetrics": {
+  "width": 1080,
+  "height": 2340,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone SE": {
+  "deviceMetrics": {
+  "width": 750,
+  "height": 2340,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone 14": {
+  "deviceMetrics": {
+  "width": 1170,
+  "height": 2532,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone 14 Pro": {
+  "deviceMetrics": {
+  "width": 1179,
+  "height": 2556,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone 14 Plus": {
+  "deviceMetrics": {
+  "width": 1284,
+  "height": 2778,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone 14 Pro Max": {
+  "deviceMetrics": {
+  "width": 1290,
+  "height": 2796,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone 15": {
+  "deviceMetrics": {
+  "width": 1179,
+  "height": 2556,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone 15 Pro": {
+  "deviceMetrics": {
+  "width": 1179,
+  "height": 2556,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone 15 Plus": {
+  "deviceMetrics": {
+  "width": 1290,
+  "height": 2796,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone 15 Pro Max": {
+  "deviceMetrics": {
+  "width": 1290,
+  "height": 2796,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone 16": {
+  "deviceMetrics": {
+  "width": 1179,
+  "height": 2556,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone 16 Pro": {
+  "deviceMetrics": {
+  "width": 1206,
+  "height": 2622,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone 16 Plus": {
+  "deviceMetrics": {
+  "width": 1290,
+  "height": 2796,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Apple iPhone 16 Pro Max": {
+  "deviceMetrics": {
+  "width": 1320,
+  "height": 2868,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": true
+  }
+},
+"Samsung Galaxy Z Fold6": {
+  "deviceMetrics": {
+  "model":"SM-F956BZWGINS",
+  "width": 1856,
+  "height": 2160,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": false
+  }
+},
+"Samsung Galaxy S24": {
+  "deviceMetrics": {
+  "model":"SM-S921BZVCINS",
+  "width": 1080,
+  "height": 2340,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": false
+  }
+},
+"Samsung Galaxy S24 Plus": {
+  "deviceMetrics": {
+  "model":"SM-S926B/DS",
+  "width": 1440,
+  "height": 3120,
+  "pixelRatio": 4.5,
+  "touch": true,
+  "isiOS": false
+  }
+},
+"Samsung Galaxy S24 Ultra": {
+  "deviceMetrics": {
+  "model":"SM-S928BZVCINS",
+  "width": 1440,
+  "height": 3120,
+  "pixelRatio": 4.5,
+  "touch": true,
+  "isiOS": false
+  }
+},
+"Samsung Galaxy S24 FE": {
+  "deviceMetrics": {
+  "model":"SM-S721BLBCXME",
+  "width": 1080,
+  "height": 2340,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": false
+  }
+},
+"Samsung Galaxy S23": {
+  "deviceMetrics": {
+  "model":"SM-S911B",
+  "width": 1080,
+  "height": 2340,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": false
+  }
+},
+"Samsung Galaxy S23 Plus": {
+  "deviceMetrics": {
+  "model":"SM-S9160",
+  "width": 1080,
+  "height": 2340,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": false
+  }
+},
+"Samsung Galaxy S23 Ultra": {
+  "deviceMetrics": {
+  "model":"SM-S918B/DS",
+  "width": 1440,
+  "height": 3088,
+  "pixelRatio": 4.0,
+  "touch": true,
+  "isiOS": false
+  }
+},
+"Samsung Galaxy S23 FE": {
+  "deviceMetrics": {
+  "model":"SM-S711BZWCMEA",
+  "width": 1080,
+  "height": 2340,
+  "pixelRatio": 3.0,
+  "touch": true,
+  "isiOS": false
+  }
+}
+}
