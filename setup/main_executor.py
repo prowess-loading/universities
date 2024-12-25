@@ -10,13 +10,13 @@ from setup.ad_clicker import AdClicker
 class MainExecutor:
     def __init__(
             self, device_type="both",
-            proxy_active=False,
+            proxy_active=True,
             device_name="random",
             browser_name="random",
             region="na",                    # rd, us, na, au, as, eu
             add_utm=True,
             enable_ad_click=True,
-            ad_click_frequency=1
+            ad_click_frequency=7
     ):
         self.device_type = device_type
         self.proxy_active = proxy_active
