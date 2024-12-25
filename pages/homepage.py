@@ -14,17 +14,19 @@ class HomePage:
             "Imperial-Collage-London",
             "Massachusetts-Institute-of-Technology",
             "University-of-Cambridge",
-            "University-of-Oxford",
+            # "University-of-Oxford",
             "Stanford-University",
             "University-of-Zurich",
+            "Harvard-University",
             "National-University-of-Singapore",
-            "University-College-London",
+            # "University-College-London",
             "California-Institute-of-Technology",
-            "University-of-Pennsylvania",
+            # "University-of-Pennsylvania",
             "University-of-California",
         ]
 
-        self.selected_university_name = random.choice(self.universities)
+        # self.selected_university_name = random.choice(self.universities)
+        self.selected_university_name = "Massachusetts-Institute-of-Technology"
 
     def open_university_page(self):
         university_page_article_id = self.locators["universities"].get(

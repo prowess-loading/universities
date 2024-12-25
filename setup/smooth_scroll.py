@@ -306,7 +306,8 @@ class SmoothScroll:
                         "return arguments[0].offsetHeight;", target_element)
 
                     if height > 10:
-                        quit_driver_after_timeout(self.driver, ad_timeout)
+                        quit_driver_after_timeout(
+                            self.driver, ad_timeout, log_file, ad_count_incremented)
                         target_element.click()
                     else:
                         break

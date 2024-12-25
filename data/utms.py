@@ -1,6 +1,6 @@
 main_page = [
-    "http://newblog.gameappszone.com/"]
-domain = "gameappszone"
+    "https://insurance.techmastry.com/"]
+domain = "techmastry"
 
 utms = [
     "?utm_source=facebook&utm_medium=Facebook_Feed&utm_campaign=university&utm_content=image_logo&utm_id=6599686407630",
