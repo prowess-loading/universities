@@ -16,7 +16,7 @@ class MainExecutor:
             region="na",                    # rd, us, na, au, as, eu
             add_utm=True,
             enable_ad_click=True,
-            ad_click_frequency=7
+            ad_click_frequency=3
     ):
         self.device_type = device_type
         self.proxy_active = proxy_active
