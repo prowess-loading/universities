@@ -30,7 +30,12 @@ from multiprocessing import Pool
 
 def run_command(args):
     terminal_number, system_platform, working_directory, command = args
-    if system_platform == "Darwin":
+
+    if system_platform == "Windows":
+        subprocess.Popen(
+            ["cmd", "/c", f"start cmd /c {command}"], shell=True
+        )
+    elif system_platform == "Darwin":
         apple_script = f'''
         tell application "Terminal"
             do script "cd {working_directory} && {command}; exit"
