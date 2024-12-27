@@ -45,12 +45,8 @@ def open_url_with_retry(driver, url, max_retries=3, retry_delay=1):
 
         except TimeoutException:
             print(f"Timeout occurred.")
-            driver.quit()
-            break
         except Exception as e:
             print(f"An error occurred: {e}.")
-            driver.quit()
-            break
 
     else:
         print("Failed to load the page after multiple attempts.")

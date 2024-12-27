@@ -255,7 +255,19 @@ class SmoothScroll:
             thread.start()
 
         # Phase 1: Scroll to the Bottom
+        homepage_timeout = 20
+        start_time_phase1 = time.time()
+
         while True:
+            elapsed_time = time.time() - start_time_phase1
+            if elapsed_time > homepage_timeout:
+                print(
+                    f"Timeout reached: Could not find the target ad within {timeout} seconds.")
+                if not self.driver_quit:
+                    self.driver.quit()
+                    self.driver_quit = True
+                break
+
             current_position = self.driver.execute_script(
                 "return window.pageYOffset")
             total_scroll_height = self.driver.execute_script(
@@ -279,12 +291,12 @@ class SmoothScroll:
 
         # Phase 2: Scroll Upwards
         scrolling_up = True
-        start_time = time.time()
+        start_time_phase2 = time.time()
         timeout = 25
         ad_timeout = 15
 
         while True:
-            elapsed_time = time.time() - start_time
+            elapsed_time = time.time() - start_time_phase2
             if elapsed_time > timeout:
                 print(
                     f"Timeout reached: Could not find the target ad within {timeout} seconds.")
