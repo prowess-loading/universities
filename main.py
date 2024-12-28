@@ -63,7 +63,7 @@ def main():
         ))
 
         process.start()
-        process.join(timeout=250)
+        process.join(timeout=200)
 
         if process.is_alive():
             print(
@@ -79,7 +79,7 @@ def main():
             else:
                 pass
         else:
-            print(f"Terminal {terminal_number}: Test #{i} completed normally.")
+            pass
 
         process.close()
 
