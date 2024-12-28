@@ -4,6 +4,7 @@ from multiprocessing import Process, Manager
 from setup.main_executor import MainExecutor
 from setup import utils
 import psutil  # type: ignore
+import random
 
 
 def run_instance(terminal_number, i, ad_click_log_file, terminal_log_file, status_dict):
@@ -16,6 +17,9 @@ def run_instance(terminal_number, i, ad_click_log_file, terminal_log_file, statu
     click_ad = utils.should_click_ad(
         i, interval=executor.ad_click_frequency
     ) if executor.enable_ad_click else False
+
+    if executor.device_type == "both":
+        executor.device_type = random.choice(["desk", "mobile"])
 
     try:
         driver = executor.setup_driver()
